@@ -125,3 +125,10 @@ body {
     font-size: 18px;
     max-width: 200px;
 }
+
+.third {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D34E4E;
+}
