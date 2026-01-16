@@ -73,3 +73,13 @@ body {
     padding: 200px;
     background-color: darkgray;
 }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBEF76;
+}
+
+.container {
+    display: flex;
+}
