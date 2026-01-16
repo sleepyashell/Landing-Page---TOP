@@ -1,7 +1,7 @@
 body {
-    height: 100vh;
+    height: 200vh;
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -47,6 +47,7 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .secondary-text {
@@ -60,26 +61,67 @@ body {
     display: flex;
     background-color: #F9FAF8;
     color: #D73535;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 20px;
-    padding: 7px 30px;
+    padding: 12px 40px;
     border: none;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .placeholder {
     display: flex;
-    color: white;
+    color: #D73535;
     padding: 200px;
-    background-color: darkgray;
+    background-color: white;
+    border-radius: 30px;
 }
 
 .second {
     display: flex;
+    height: 500px;
     flex-direction: column;
-    background-color: #FBEF76;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9E7B2;
+}
+
+.header-text {
+    display: flex;
+    color: #D73535;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 50px;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rectangles {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: #D73535;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.text {
+    display: flex;
+    color: #D73535;
+    text-align: center;
+    font-size: 18px;
+    max-width: 200px;
 }
